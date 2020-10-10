@@ -21,7 +21,7 @@ An app that creates a Team Profile by generating an HTML file based on user inpu
 
 ---
 
-- Go to https://github.com/patinoman/portfolio-generator
+- Go to https://github.com/patinoman/team-profile-generator
 - Download the zip file in the 'Code' button
 - Unzip the file to run on your computer.
 
@@ -29,7 +29,9 @@ An app that creates a Team Profile by generating an HTML file based on user inpu
 
 ---
 
-Once downloaded, open the folder on VSCode. Invoke the program using the command on the terminal 'node index'. Follow the promps carefully. Your HTML will be generated on the dist/ folder in the explorer.
+Once downloaded, open the folder on VSCode. Invoke the program using the command on the terminal 'node index'. Follow the prompts carefully. Your HTML will be generated on the dist/ folder in the explorer.
+
+Walkthrough (Video): [https://drive.google.com/file/d/17fMCrg4I4w4fAhXCjZMnKpW3aRchT_NP/view?usp=sharing](https://drive.google.com/file/d/17fMCrg4I4w4fAhXCjZMnKpW3aRchT_NP/view?usp=sharing)
 
 ![screenshot of generated Team Profile](./team-builder-snippet.png?raw=true)
 
@@ -71,5 +73,6 @@ Ran tests using jest. I changed the package.json 'test' value to equal 'jest'. O
 
 ---
 
-Want to see more projects ? Check out my github at [https://github.com/patinoman].
+Want to see more projects? Check out my github at [https://github.com/patinoman].
+
 Please email me at patino.hector@gmail.com for additional questions.
