@@ -1,5 +1,5 @@
 const fs = require('fs');
-// const generatePage = require('./src/page-template.js'); //generates the page template to hold cards
+const generatePage = require('./src/page-template.js'); //generates the page template to hold cards
 const inquirer = require('inquirer');
 
 const Manager = require('./lib/Manager.js'); //calls for Manager function
@@ -224,4 +224,41 @@ const addIntern = () => {
             addEmployee();
         })
 }
-startApp();
+
+const createPage = () => {
+    // write file to dist folder
+    fs.writeFile('./dist/index.html', generatePage(allEmp), err => {
+        var obj = {
+            ok: true,
+            message: 'File created!'
+        }
+
+        if (err) {
+            console.log(err);
+            return;
+        }
+
+       
+        copyStyle();
+    })
+};
+const copyStyle = () => {
+    // copy the style page and add it to the dist folder
+    fs.copyFile('./src/style.css', './dist/style.css', err => {
+        var obj = {
+            ok: true,
+            message: 'Style sheet copied successfully!'
+        }
+
+        if (err) {
+            console.log(err);
+            return;
+        }
+
+        console.log(obj);
+    });
+}
+
+
+
+startApp(); //starts app
