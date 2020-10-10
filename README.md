@@ -33,7 +33,7 @@ Once downloaded, open the folder on VSCode. Invoke the program using the command
 
 Walkthrough (Video): [https://drive.google.com/file/d/17fMCrg4I4w4fAhXCjZMnKpW3aRchT_NP/view?usp=sharing](https://drive.google.com/file/d/17fMCrg4I4w4fAhXCjZMnKpW3aRchT_NP/view?usp=sharing)
 
-![screenshot of generated Team Profile](./team-builder-snippet.png?raw=true)
+![screenshot of generated Team Profile](team-builder-snippet.PNG?raw=true)
 
 ## License
 
